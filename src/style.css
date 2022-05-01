@@ -126,3 +126,10 @@ a {
 .clearfix weather-temperature {
   font-size: 40px;
 }
+
+.active {
+  cursor: default;
+}
+.active:hover {
+  text-decoration: none;
+}
