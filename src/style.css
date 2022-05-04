@@ -94,12 +94,15 @@ a {
   margin-left: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-right: 10px;
   color: #cca8e9;
+  text-align: center;
 }
 
 .forecast-days {
   font-size: 14px;
   margin-top: 15px;
+  text-align: center;
 }
 
 .weather-app {
@@ -136,4 +139,16 @@ a {
 
 .information {
   text-align: right;
+}
+
+.weather-forecast-temperatures {
+  font-family: "Poppins", sans-serif;
+}
+
+.weather-forecast-temperature-max {
+  font-size: 15px;
+}
+
+.weather-forecast-temperature-min {
+  font-size: 12px;
 }
