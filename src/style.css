@@ -37,16 +37,6 @@ h3 {
   font-family: "Poppins", sans-serif;
 }
 
-li {
-  list-style: none;
-  text-align: center;
-}
-
-ul {
-  margin: 0 0 20px;
-  padding: 0;
-}
-
 form {
   margin: 20px 0;
 }
