@@ -133,3 +133,7 @@ a {
 .active:hover {
   text-decoration: none;
 }
+
+.information {
+  text-align: right;
+}
