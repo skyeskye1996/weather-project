@@ -47,6 +47,7 @@
                   type="submit"
                   value="Lets Go!"
                   class="btn btn-primary search-button"
+                  autocomplete="off"
                 />
                 <span id="current-location">
                   <i class="fa-solid fa-map-location-dot pin-location" title="Current Location"></i>
@@ -55,12 +56,12 @@
             </div>
           </form>
 
-          <h2>London</h2>
-          <h3>Mostly cloudy</h3>
+          <h2 id="city"></h2>
+          <h3 id="description"></h3>
           </br>
           <div class="row">
             <div class="col-4">
-              <span class="temperature" id="temperature">26</span>
+              <span class="temperature" id="temperature"></span>
               <span>
                 <sup>
                   <a href="#" id="celsius" class="active">°C</a>
@@ -75,15 +76,15 @@
             <div class="col">
               <div class="row">
                 <div class="col-5 information">Feels like:</div>
-                <div class="col-4"><span id="feels-like">36</span>°</div>
+                <div class="col-4"><span id="feels-like"></span>°</div>
               </div>
               <div class="row">
                 <div class="col-5 information">Humidity:</div>
-                <div class="col-4"><span id="humidity">76</span>%</div>
+                <div class="col-4"><span id="humidity"></span>%</div>
               </div>
               <div class="row">
                 <div class="col-5 information">Wind:</div>
-                <div class="col-4"><span id="wind">18</span> km/h</div>
+                <div class="col-4"><span id="wind"></span> km/h</div>
               </div>
             </div>
           </div>
