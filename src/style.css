@@ -56,26 +56,42 @@ a {
 
 .card {
   margin: 30px auto;
-  padding: 20px 0 20px 30px;
+  padding: 20px;
   max-width: 700px;
   border-radius: 10px;
   font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 
 .button {
   color: black;
 }
+
 .search-button {
   font-size: 13px;
   padding: 7px 15px;
-  background-color: #cadefc;
-  border-color: #8ebbf9;
+  background-color: #cca8e9;
+  border-color: #cca8e9;
+  color: white;
+}
+
+.search-button:hover {
+  font-size: 13px;
+  padding: 7px 15px;
+  background-color: #cbc9f5;
+  border-color: #cbc9f5;
   color: black;
 }
 
 .pin-location {
   margin-left: 10px;
-  color: #8ebbf9;
+  color: #cca8e9;
+  font-size: 30px;
+}
+
+.pin-location:hover {
+  margin-left: 10px;
+  color: #cbc9f5;
   font-size: 30px;
 }
 
@@ -116,8 +132,11 @@ a {
   color: #cca8e9;
 }
 
-.clearfix weather-temperature {
+.weather-temperature {
   font-size: 40px;
+  background-color: #cca8e9;
+  border-radius: 65%;
+  text-align: center;
 }
 
 .active {
@@ -131,8 +150,14 @@ a {
   text-align: right;
 }
 
-.weather-forecast-temperatures {
+.futureIcons {
+  background-color: #cca8e9;
+  border-radius: 65%;
+}
+
+.weather-forecast {
   font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 
 .weather-forecast-temperature-max {
@@ -141,4 +166,8 @@ a {
 
 .weather-forecast-temperature-min {
   font-size: 12px;
+}
+
+.small {
+  color: black;
 }
